@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stratton Oakmont | Dashboard</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+</head>
+
+<body>
+  
+  <main>
+    <div class="container">
+      <div class="nav">
+          <div class="logo"></div>
+          <div class="header">
+            <h2>STRATTON OAKMONT</h2>
+            <h3>Andrew Belfort</h3>
+          </div>
+          <div class="icons">
+            <i class="fas fa-bell"></i>
+            <i class="fas fa-cog"></i>
+            <i class="fas fa-search"></i>
+          </div>
+
+      </div>
+      <div class="side-nav">
+          <i class="fas fa-home"><a href="dashboard.html"> TOTALS</i></a>
+          <i class="fas fa-comment active"><a href="messages.html">  DAILY</i></a>
+          <i class="fas fa-users">  THEME</i>
+          <i class="fas fa-times">  LOGOUT</i>
+      </div>
+      <div class="display">
+        <canvas id="sales-by-day"></canvas> 
+        </div>
+        <div class="graphs"></div>
+        <div class="leader"></div>
+      </div>
+    </div>
+  </main>
+
+  
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+  <script src="js/vue.js"></script>
+  <script src="js/pie1.js"></script>
+  <script src="js/bar-chart-summary.js"></script>
+    <script src="js/line-chart-summary.js"></script>
+    <script src="js/pie-chart-summary.js" ></script>
+    <script src="js/mixed-bar-chart-summary.js"></script>
+    <script src="js/sales-by-day.js"></script> 
+        <script src="theme-change.js"></script>
+
+  
+
+</body>
+</html>

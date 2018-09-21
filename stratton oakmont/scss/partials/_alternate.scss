@@ -1,0 +1,28 @@
+main.alternate {
+	.nav {
+	grid-area: 1/1/2/6;
+	background: whitesmoke;
+}
+.side-nav {
+	display: grid;
+    grid-template-rows: repeat(5,20%);
+	grid-area: 2/1/6/2;
+	background: whitesmoke;
+
+}
+
+.display {
+	grid-area: 2/2/6/6;
+	background: white;
+}
+
+.stats {
+	grid-area: 1/1/2/5;
+	background: white;
+}
+
+.graphs {
+	grid-area: 2/3/4/5;
+	background: white;
+}
+}

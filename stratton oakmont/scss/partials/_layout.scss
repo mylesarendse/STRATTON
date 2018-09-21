@@ -1,0 +1,44 @@
+html {
+	padding: 10px;
+}
+body {
+    background-image: url(../img/bg.png);
+    margin: 0px;
+}
+
+.container {
+	display: grid;
+    grid-template-rows: repeat(5,20vh);
+    grid-template-columns: repeat(5,20%);
+}
+.container img{
+	grid-area: 1/1/2/3;
+	background-image: url(../img/logo.png);
+	z-index:10;
+}
+.nav {
+	grid-area: 1/1/2/6;
+	background: $base;
+}
+.side-nav {
+	display: grid;
+    grid-template-rows: repeat(5,20%);
+	grid-area: 2/1/6/2;
+	background: $base;
+
+}
+
+.display {
+	grid-area: 2/2/6/6;
+	background: $second;
+}
+
+.stats {
+	grid-area: 1/1/2/5;
+	background: $second;
+}
+
+.graphs {
+	grid-area: 2/3/4/5;
+	background: $second;
+}

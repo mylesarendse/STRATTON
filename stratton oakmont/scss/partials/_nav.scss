@@ -1,0 +1,36 @@
+.nav{
+	display:grid;	
+	grid-template-columns:repeat(5,20%);
+}
+
+.logo{
+	grid-area: 1/1/2/2;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-left: 25px;
+}
+.header{
+	grid-area: 1/2/2/4;
+}
+h2{
+	font-size:40px;
+	color: $gold;
+}
+h3{
+	color:whitesmoke;
+	font-size:30px;
+}
+
+.icons {
+	grid-area:1/5/2/6;
+	color: $gold;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.fas {
+	padding: 20px;
+	font-size:30px;
+}
